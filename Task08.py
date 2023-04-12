@@ -10,7 +10,7 @@ n = int(input())
 m = int(input())
 k = int(input())
 
-if (k % n == 0 and k % m == 0) and k <= m*n:
+if (k % n == 0 or k % m == 0) and k <= m*n:
     print(f"от шоколадки размером {n} × {m} можно отломить {k} долек")
 else:
     print(f"от шоколадки размером {n} × {m} нельзя отломить {k} долек")
