@@ -10,11 +10,11 @@
 #     7 -> "Нельзя определить"
 
 s = int(input())
-Petr_Serz_cranes = s // 3
-Kate_cranes = 2 * (s // 3)
-if s % 3 != 0:
+petr_serz_cranes = 2 * (s // 6)
+kate_cranes = 4 * (s // 6)
+if s % 6 != 0:
     print("Нельзя определить")
 else:
-    print(f"Катя сделала {Kate_cranes} журавликов, Петя и Сережа сделали {Petr_Serz_cranes} журавликов каждый.")
+    print(f"Катя сделала {kate_cranes} журавликов, Петя и Сережа сделали {petr_serz_cranes} журавликов каждый.")
 
 
